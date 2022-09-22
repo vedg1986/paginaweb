@@ -1,0 +1,49 @@
+/*variables*/
+
+$color: whitesmoke;
+$segundoColor: gray;
+$pic: 350px;
+$hig: 350px;
+$tama: 300px;
+
+body {
+  background-image: url(../img/pilon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.descripción {
+  font-size: 1.3rem;
+  color: $color;
+  border: 3px solid gray;
+  text-align: justify;
+}
+
+p {
+  margin-top: 100px;
+  background: black;
+}
+.galeria h3 {
+  background: black;
+}
+
+
+img {
+  width: $pic;
+  height: $hig;
+  border-radius: 25px;
+  box-shadow: 5px 5px 25px rgb(247, 242, 242);
+  margin-top: 60px;
+  padding-bottom: 10px;
+}
+
+.card {
+  margin-top: 5rem;
+  background: black;
+}
+.card-text {
+  margin-top: 1rem;
+}
