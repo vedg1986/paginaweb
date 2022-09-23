@@ -1,9 +1,9 @@
-/*variables*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 
 $color: whitesmoke;
 $segundoColor: gray;
-$pic: 350px;
-$hig: 350px;
+$pic: 320px;
+$hig: 320px;
 $tama: 300px;
 
 body {
@@ -13,9 +13,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
-
+.navbar-brand {
+  margin: auto;
+  padding: 0rem 0.5rem 1rem 0.5rem;
+}
 
 .descripción {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
   font-size: 1.3rem;
   color: $color;
   border: 3px solid gray;
@@ -30,7 +34,6 @@ p {
   background: black;
 }
 
-
 img {
   width: $pic;
   height: $hig;
@@ -43,6 +46,7 @@ img {
 .card {
   margin-top: 5rem;
   background: black;
+  margin: auto;
 }
 .card-text {
   margin-top: 1rem;
