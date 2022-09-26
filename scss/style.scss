@@ -7,15 +7,12 @@ $hig: 320px;
 $tama: 300px;
 
 body {
+  width: 100%;
   background-image: url(../img/pilon.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-}
-.navbar-brand {
-  margin: auto;
-  padding: 0rem 0.5rem 1rem 0.5rem;
 }
 
 .descripción {
@@ -56,4 +53,29 @@ img {
 .card-text {
   margin-top: 2rem;
 }
+.dise_p {
+  background:black;
+  margin-top: 80px;
+  color: $color;
+  width: 100%;
+  height: 250px;
+}
+.pilon {
+  margin-left: 0.3rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 6rem;
+  padding-bottom: 15px;
+}
 
+.order-1 {
+  margin-top: 5rem;
+}
+.order-5 {
+  margin: 0px;
+}
+.order-5 p {
+margin-top: 0px;
+overflow: hidden;
+font-size: 14px;
+}
